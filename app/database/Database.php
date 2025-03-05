@@ -4,11 +4,7 @@ class Database{
     private $_HOST = "localhost";
     private $_USERNAME = "root";
     private $_PASSWORD = "";
-<<<<<<< HEAD
     private $_DATABASE = "kenta";
-=======
-    private $_DATABASE = "";
->>>>>>> 327ee564c6ed9cd3f78d0785eb2ce9ed08d5068e
     private $_DRIVER = "mysql";
     public $conn;
 
