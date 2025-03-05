@@ -1,9 +1,12 @@
 <?php
 
-class HomePage{
+class HomePage extends Controller{
     
     public function index(){
-        echo "HOMEPAGE_INDEX";
+       $this->view("templates/header");
+       $this->view("templates/navbar");
+       $this->view("Home");
+       $this->view("templates/footer");
     }
 }
 ?>
