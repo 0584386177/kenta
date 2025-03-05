@@ -30,7 +30,11 @@ class App{
         }
 
         // Xử lý params
+<<<<<<< HEAD
         $this->params = $array? array_values($array) : [];
+=======
+        $this->params = $array? array_values($array) : [];
+>>>>>>> 327ee564c6ed9cd3f78d0785eb2ce9ed08d5068e
         call_user_func_array([$this->controller , $this->action],$this->params);        
 
     }
