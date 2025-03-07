@@ -6,6 +6,12 @@
     font-optical-sizing: auto;
    
 }
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Ngăn chặn thanh cuộn ngang */
+}
+
 :root{
     --color-main : #25a7df;
 }
@@ -13,6 +19,8 @@ a{
     text-decoration: none;
     color:black;
 }
+
+
 
 /* DROP MENU */
 .drop-menu {
@@ -35,6 +43,9 @@ a{
   transform: scaleY(1);
   
   } 
+  .btn-menu{
+    font-weight:bolder;
+  }
   .drop-menu > a:hover{
     color : var(--color-main);
     transition : all 0.2s ease;
@@ -56,7 +67,27 @@ a{
     transform: rotate(180deg);
     transition: all 0.3s ease;
   }
+/* RELATED PRODUCT */
+/* FEATURED PRODUCT */
+.related-products {
+    padding: 40px 0;
+}
 
+.related-products__heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Category Tabs */
+.related-products__tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
 /* FEATURED PRODUCT */
 .new-products {
     padding: 40px 0;
@@ -120,11 +151,9 @@ a{
 
 /* Product Card */
 .product-card {
-    width: 295px;
-    border: 1px solid #f5f5f5;
-    border-radius: 4px;
     overflow: hidden;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 
@@ -169,7 +198,7 @@ a{
     text-align: center;
     font-weight: 600;
     color: #000;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* View More Button */
@@ -265,4 +294,53 @@ a{
     .product-grid {
         grid-template-columns: 1fr;
     }
+}
+
+/* BREADCUMB */
+.breadcrumb{
+    width:100%;
+    background: #fafafa;
+    padding:18px 50px;
+    border-top:1px solid #e7e7e7;
+    border-bottom:1px solid #e7e7e7;
+}
+
+/* PRODUCT DETAIL */
+.product-details::-webkit-scrollbar {
+    width: 0px;
+}
+.size-radio-input {
+    position: absolute;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    background-color:black;
+
+}
+
+.size-radio-label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.size-radio-input:not(:checked) + .size-radio-label {
+    background-color: white;
+    color: #111827;
+}
+
+.size-radio-input:checked + .size-radio-label {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.size-radio-input:not(:checked) + .size-radio-label:hover {
+    background-color: #f3f4f6;
 }

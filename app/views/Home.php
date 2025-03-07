@@ -1,40 +1,52 @@
-<div id="default-carousel" style="margin-top: 15px;" class="relative w-full " data-carousel="slide">
-    <!-- Carousel wrapper -->
-    <div class="relative h-70 overflow-hidden rounded-lg h-[100vh]">
-        <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out " data-carousel-item>
-            <img style="height: 100%;" src="https://file.hstatic.net/1000096703/file/3_0a7a77ed7b9a47559470b670c990c00b.jpg" class="absolute 
- block w-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out " data-carousel-item>
-            <img style="height: 100%;" src="https://file.hstatic.net/1000096703/file/ship10k.jpg" class="absolute 
- block w-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out " data-carousel-item>
-            <img style="height: 100%;" src="http://file.hstatic.net/1000096703/file/quantay_sm.jpg" class="absolute 
- block w-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out " data-carousel-item>
-            <img style="height: 100%;" src="https://file.hstatic.net/1000096703/file/2_369e0657e5b34e04bd9c3a94372ad66b.jpg" class="absolute 
- block w-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 5 -->
-
-    </div>
-    <!-- Slider indicators -->
-    <div class="absolute z-30 flex bottom-5 left-3/4 -translate-x-1/4 space-x-3 gap-[20px]">
-        <button type="button" class="w-3 h-3 rounded-full " aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-    </div>
-
-</div>
 <!-- SẢN PHẨM MỚI -->
-<div class="container">
+<div class="container mx-auto max-w-[1400px]">
+    <div id="indicators-carousel" class="relative w-full" data-carousel="static">
+        <!-- Carousel wrapper -->
+        <div style="width: 100%;" class="relative overflow-hidden rounded-sm h-[800px] ">
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="https://file.hstatic.net/1000096703/file/ship10k.jpg" class="absolute block w-full object-cover " alt="...">
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://file.hstatic.net/1000096703/file/quantay_sm.jpg" class="absolute block w-full object-cover " alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://file.hstatic.net/1000096703/file/3_0a7a77ed7b9a47559470b670c990c00b.jpg" class="absolute block w-full object-cover " alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://file.hstatic.net/1000096703/file/2_369e0657e5b34e04bd9c3a94372ad66b.jpg" class="absolute block w-full object-cover " alt="...">
+            </div>
+
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex right-20 gap-[10px] bottom-5 ">
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+    </div>
     <section class="new-products">
         <h2 class="new-products__heading">SẢN PHẨM MỚI</h2>
 
@@ -121,7 +133,8 @@
     </section>
 </div>
 
-<section class="brand-image flex justify-around mt-2 gap-[2px]">
+<!-- BRAND IMAGE -->
+<section class="brand-image flex justify-center mt-2 gap-[2px]">
 
     <img class="w-[250px] h-[250px]" src="https://file.hstatic.net/1000096703/file/91.jpg" alt="image description">
 

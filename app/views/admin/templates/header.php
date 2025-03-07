@@ -14,9 +14,4 @@
     <title>Trang chủ</title>
 </head>
 
-<body>
-    <header class="w-full bg-black text-white h-[30px]">
-        <div>
-            <p class="text-[13px] text-center leading-[30px] font-normal ">Hotline mua hàng: <strong>0584.386.177</strong></p>
-        </div>
-    </header>
+<body class="bg-gray-50 dark:bg-gray-800">

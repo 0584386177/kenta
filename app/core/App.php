@@ -9,7 +9,6 @@ class App
     // Array ( [0] => Controller [1] => Action [2] => 123 )
     {
         $array = $this->UrlProcess();
-        print_r($array);
 
         if ($array === null) {
             $array = [$this->controller];

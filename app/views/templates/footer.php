@@ -1,36 +1,36 @@
 
 <footer>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Column 1 -->
             <div>
-                <h3 style="font-size: 15px; font-weight:bold;" class="text-sm font-bold uppercase mb-4">KENTA VN</h3>
-                <ul class="space-y-2">
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Giới thiệu</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Kiểm tra đơn hàng</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Cách chọn size</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Thông tin liên hệ</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Câu hỏi thường gặp</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Hướng dẫn bảo quản</a></li>
+                <h3 style="font-size: 15pd;" class="text-sm font-bold uppercase mb-8 font-bold">KENTA VN</h3>
+                <ul class="space-y-4" >
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Giới thiệu</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Kiểm tra đơn hàng</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Cách chọn size</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Thông tin liên hệ</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Câu hỏi thường gặp</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Hướng dẫn bảo quản</a></li>
                 </ul>
             </div>
 
             <!-- Column 2 -->
             <div>
-                <h3 style="font-size: 15px; font-weight:bold;" class="text-base font-bold uppercase mb-4">CHÍNH SÁCH</h3>
+                <h3 style="font-size: 15px;" class="text-base font-bold uppercase mb-8 font-bold">CHÍNH SÁCH</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Hướng dẫn mua hàng</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Khách hàng thân thiết</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Chính sách đổi hàng</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Chính sách bảo mật</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Đối tác sản xuất</a></li>
-                    <li><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm"><span class="mr-2">—</span> Blog</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Hướng dẫn mua hàng</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Khách hàng thân thiết</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Chính sách đổi hàng</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Chính sách bảo mật</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Đối tác sản xuất</a></li>
+                    <li style="margin:5px 0px;"><a href="#" class="text-gray-700 hover:text-blue-600 flex items-center text-sm font-medium"><span class="block mr-2">—</span> Blog</a></li>
                 </ul>
             </div>
 
             <!-- Column 3 -->
             <div>
-                <h3 style="font-size: 15px; font-weight:bold;" class="text-base font-bold uppercase mb-4">KẾT NỐI VỚI KENTA</h3>
+                <h3 style="font-size: 15px;" class="text-base font-bold uppercase mb-8 font-bold">KẾT NỐI VỚI KENTA</h3>
                 <div class="flex space-x-3 mb-6">
                     <a href="#" class="w-9 h-9 bg-gray-100 rounded-full flex items-center justify-center text-gray-700 hover:bg-gray-200">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -55,8 +55,7 @@
                 </div>
 
                 <div class="flex space-x-3">
-                    <img src="https://kenta.vn/wp-content/uploads/2023/03/da-thong-bao.png" alt="Đã Thông Báo Bộ Công Thương" class="h-10">
-                    <img src="https://kenta.vn/wp-content/uploads/2018/10/dmca-badge-w150-5x1-01.png" alt="DMCA Protected" class="h-10">
+                    <img src="https://file.hara.vn/1000114117/file/logo-bct_5a0bbf4fb2d34c3e88c04df41ad38dc9.png" alt="Đã Thông Báo Bộ Công Thương" class="h-10 w-[150px] h-[50px]"><br>
                 </div>
             </div>
 
@@ -86,13 +85,13 @@
     </div>
 
     <!-- Copyright section -->
-    <div class="border-t border-gray-200 mt-8 pt-6 flex justify-center items-center">
-        <p class=" text-sm text-gray-500">Copyright © 2025 KENTA.VN.</p>
+    <div class="border-t border-gray-200 p-3">
+        <p class=" text-sm text-gray-500 text-center">&copy; Copyright 2025 Huynh Khanh Hoa</p>
     </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="<?= APP_ROOT ?>app/assets/js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>
 
 </html>
