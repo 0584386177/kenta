@@ -61,7 +61,8 @@
             <!-- Product 1 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="https://product.hstatic.net/1000096703/product/1_2ca2e819c6d745c0a2ae6fceeae5269d_grande.jpg" alt="Áo Khoác Dù 2 Lớp AKD0030">
+                    <a href="./ProductDetailController"> <img src="https://product.hstatic.net/1000096703/product/1_2ca2e819c6d745c0a2ae6fceeae5269d_grande.jpg" alt="Áo Khoác Dù 2 Lớp AKD0030">
+                    </a>
                     <div class="product-actions">
                         <button class="action-btn buy-now">MUA NGAY</button>
                         <button class="action-btn add-to-cart">THÊM VÀO GIỎ</button>
@@ -76,7 +77,8 @@
             <!-- Product 2 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="https://product.hstatic.net/1000096703/product/0_15835a091f9e4eeea4ac24327314059a_grande.jpg" alt="Áo Khoác Dù 2 Lớp AKD0030">
+                    <a href="ProductDetailController"> <img src="https://product.hstatic.net/1000096703/product/0_15835a091f9e4eeea4ac24327314059a_grande.jpg" alt="Áo Khoác Dù 2 Lớp AKD0030">
+                    </a>
                     <div class="product-actions">
                         <button class="action-btn buy-now">MUA NGAY</button>
                         <button class="action-btn add-to-cart">THÊM VÀO GIỎ</button>
@@ -91,7 +93,10 @@
             <!-- Product 3 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="https://product.hstatic.net/1000096703/product/0_de8e6686dfcb4f448e6a8f2f6b9d88b6_grande.jpg" alt="Áo Khoác Dù Không Nón 2 Lớp AKD0031">
+                    <a href="./ProductDetailController">
+                        <img src="https://product.hstatic.net/1000096703/product/0_de8e6686dfcb4f448e6a8f2f6b9d88b6_grande.jpg" alt="Áo Khoác Dù Không Nón 2 Lớp AKD0031">
+
+                    </a>
                     <div class="product-actions">
                         <button class="action-btn buy-now">MUA NGAY</button>
                         <button class="action-btn add-to-cart">THÊM VÀO GIỎ</button>
@@ -106,7 +111,10 @@
             <!-- Product 4 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="https://product.hstatic.net/1000096703/product/0_5491089b87e8412a9fffaf83a0816868_grande.jpg" alt="Áo Khoác Dù Không Nón 2 Lớp AKD0031">
+                    <a href="./ProductDetailController">
+                        <img src="https://product.hstatic.net/1000096703/product/0_5491089b87e8412a9fffaf83a0816868_grande.jpg" alt="Áo Khoác Dù Không Nón 2 Lớp AKD0031">
+
+                    </a>
                     <div class="product-actions">
                         <button class="action-btn buy-now">MUA NGAY</button>
                         <button class="action-btn add-to-cart">THÊM VÀO GIỎ</button>

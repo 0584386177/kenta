@@ -1,6 +1,10 @@
 <?php
 class ProductController extends Controller{
-    
+  
+    public function __construct(){
+
+    }
+
     public function index(){
         $this->view("templates/header");
         $this->view("templates/navbar");

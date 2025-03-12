@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="http://localhost/kenta/app/assets/css/style.css">
-    <title>Trang chủ</title>
+    <title>Dashboard</title>
 </head>
 
 <body class="bg-gray-50 dark:bg-gray-800">
