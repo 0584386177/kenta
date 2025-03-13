@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+ob_start();
 class OrderAdminController extends Controller
 {
     public function index()

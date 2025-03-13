@@ -9,15 +9,12 @@ class Database
     private $_DRIVER = "mysql";
     public $conn;
 
-    public function __construct() {
-        $this->connect();
-    }
-
     public function connect()
     {
         try {
             $dsn = "" . $this->_DRIVER . ":host=" . $this->_HOST . ";dbname=" . $this->_DATABASE . "";
             $options = [
+
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                 PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES UTF8"
             ];

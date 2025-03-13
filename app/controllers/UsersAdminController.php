@@ -1,4 +1,6 @@
 <?php
+session_start();
+ob_start();
 class UsersAdminController extends Controller
 {
     public function index()
